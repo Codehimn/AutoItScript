@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+#Region - GUI SelectLoop
+
+While 1
+	\$msg = GUIGetMsg()
+
+Select
+
+	Case \$msg = -3 ;\$GUI_EVENT_CLOSE
+		Exit
+	Case \$msg = ${1}
+		${2}
+	Case \$msg = ${3}
+		${4}
+	Case \$msg = ${5}
+		${6}
+	Case \$msg = ${7}
+		${8}
+	Case \$msg = ${9}
+		${10}
+EndSelect
+
+WEnd
+#EndRegion ${6}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selectloop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Gui Msg Loop Case *5</description>
+</snippet>

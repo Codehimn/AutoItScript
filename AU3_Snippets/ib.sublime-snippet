@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+InputBox(${1})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ib</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>InputBox</description>
+</snippet>

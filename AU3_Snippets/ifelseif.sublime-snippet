@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+If ${1} Then ${2}
+	${3}
+ElseIf ${4} Then
+	${5}
+Else
+	${6}
+EndIf
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifelseif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>If .. Then .. ElseIf .. Else</description>
+</snippet>

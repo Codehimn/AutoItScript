@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+; Start - Functions
+
+Func _${1}A(${2})
+	${3}
+EndFunc
+
+Func _${1}B(${2})
+	${3}
+EndFunc
+
+Func _${1}C(${2})
+	${3}
+EndFunc
+
+Func _${1}D(${2})
+	${3}
+EndFunc
+
+Func _${1}E(${2})
+	${3}
+EndFunc
+
+Func _${1}F(${2})
+	${3}
+EndFunc
+
+Func _${1}G(${2})
+	${3}
+EndFunc
+
+Func _${1}H(${2})
+	${3}
+EndFunc
+
+Func _${1}I(${2})
+	${3}
+EndFunc
+
+Func _${1}J(${2})
+	${3}
+EndFunc]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>functions</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Func _A .. Func _J</description>
+</snippet>

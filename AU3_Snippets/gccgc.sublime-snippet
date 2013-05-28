@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+GUICtrlCreateGroup('', -99, -99, 1, 1) ; Close group.
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gccgc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>GUICtrlCreateGroup - Close</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+& @LF ${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lf1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>& @LF</description>
+</snippet>

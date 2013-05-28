@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+#Region - Options
+
+;~ Opt('CaretCoordMode', 0)			; 1 = Absolute screen coordinates, 0 = Relative coords to the active window.
+;~ Opt('ColorMode', 1)				; 0 = Colors are defined as RGB (0xRRGGBB), 1 = Colors are defined as BGR (0xBBGGRR).
+;~ Opt('ExpandEnvStrings', 1)		; 0 = Don't expand, 1 = Do expand (Use %dos% variables in strings).
+;~ Opt('ExpandVarStrings', 1)		; 0 = Don't expand, 1 = Do expand (Use \$autoit\$ variables in strings).
+;~ Opt('FtpBinaryMode', 0)			; 1 = Binary transfer, 0 = ASCII transfer.
+;~ Opt('GUICloseOnESC', 0)			; 1 = Send the \$GUI_EVENT_CLOSE message when ESC is pressed (default).
+; 									  0 = Don't send the \$GUI_EVENT_CLOSE message when ESC is pressed.
+;~ Opt('GUICoordMode', 2)			; 1 = Absolute coordinates still relative to the dialog box.
+; 									  0 = Relative position to the start of the last control (Upper left corner).
+; 									  2 = Cell positionining relative to current cell.
+;~ Opt('GUIOnEventMode', 1)			; 0 = Disable, 1 = Enable.
+;~ Opt('GUIResizeMode', 1)			; 0 = No resizing, <1024 = Anytype of resizing (Reference: GuiCtrlSetResizing).
+;~ Opt('MouseClickDelay', 10)		; ? = 10 milliseconds.
+;~ Opt('MouseClickDownDelay', 10)	; ? = 10 milliseconds.
+;~ Opt('MouseClickDragDelay', 250)	; ? = 250 milliseconds.
+;~ Opt('MouseCoordMode', 0)			; 1 = Absolute, 0 = Relative to active window, 2 = Relative to client area.
+;~ Opt('MustDeclareVars', 1)		; 0 = No, 1 = Require pre-declare.
+;~ Opt('OnExitFunc', '')			; ''  Sets the name of the function called when AutoIt exits (Default is OnAutoItExit).
+;~ Opt('PixelCoordMode', 0)			; 1 = Absolute, 0 = relative, 2 = Relative coords to the client area.
+;~ Opt('RunErrorsFatal', 0)			; 1 = Fatal, 0 = Silent set @error.
+;~ Opt('SendAttachMode', 1)			; 0 = Don't attach, 1 = Attach.
+;~ Opt('SendCapslockMode', 0)		; 1 = Store and restore, 0 = Don't store/restore.
+;~ Opt('SendKeyDelay', 5)			; ? = 5 milliseconds.
+;~ Opt('SendKeyDownDelay', 1)		; ? = 1 millisecond.
+;~ Opt('TrayIconDebug', 1)			; 0 = No info, 1 = Debug line info.
+;~ Opt('TrayIconHide', 1)			; 0 = Show, 1 = Hide.
+;~ Opt('WinDetectHiddenText', 1)	; 0 = Don't detect, 1=Do detect.
+;~ Opt('WinSearchChildren', 1)		; 0 = No, 1 = Search children also.
+;~ Opt('WinTextMatchMode', 4)		; 1 = Complete / Slow mode, 2 = Quick mode.
+;~ Opt('WinTitleMatchMode', 4)		; 1 = Start, 2 = SubString, 3 = Exact, 4 = ...
+;~ Opt('WinWaitDelay', 250)			; ? = 250 milliseconds.
+#EndRegion
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>options</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>#Region - Options</description>
+</snippet>

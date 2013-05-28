@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+#Region - Compiler Directives
+
+#Compiler_Prompt = y
+#Compiler_AutoIt3 = 
+#Compiler_Aut2Exe = 
+#Compiler_Icon = 
+#Compiler_OutFile =
+#Compiler_Compression = 2
+#Compiler_Allow_Decompile = y
+#Compiler_PassPhrase = 
+#Compiler_Res_Comment = 
+#Compiler_Res_Description = 
+#Compiler_Res_Fileversion = 0.0.0.0
+#Compiler_Res_LegalCopyright = 
+#Compiler_Res_Field = Platform
+#Compiler_Res_Field = AutoIt Version
+#Compiler_Run_AU3Check = y
+#Compiler_AU3Check_Dat = 
+#Compiler_Run_Before = 
+#Compiler_Run_After = 
+#EndRegion
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>compiler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>#Region - Compiler Directives</description>
+</snippet>

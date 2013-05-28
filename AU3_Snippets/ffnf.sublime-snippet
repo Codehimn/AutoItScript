@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+FileFindNextFile(${1})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffnf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>FileFindNextFile</description>
+</snippet>

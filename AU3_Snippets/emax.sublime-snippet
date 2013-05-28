@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$GUI_EVENT_MAXIMIZE${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>emax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>$GUI_EVENT_MAXIMIZE</description>
+</snippet>

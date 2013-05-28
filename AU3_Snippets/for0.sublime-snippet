@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+For \$i = 0 To ${1}
+	${2}
+Next
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>for0</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>For $i = 0 To</description>
+</snippet>

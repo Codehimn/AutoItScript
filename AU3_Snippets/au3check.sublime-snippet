@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+C:\\Program Files\\Autoit3\\SciTe\\Au3Check\\Au3Check.exe${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>au3check</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Path Au3Check.exe</description>
+</snippet>

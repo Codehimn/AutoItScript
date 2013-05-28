@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+	Case \$msg = ${1}
+		${2}		
+	Case \$msg = ${3}
+		${4}
+	Case \$msg = ${5}
+		${6}
+	Case \$msg = ${7}
+		${8}
+	Case \$msg = ${9}
+		${10}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>moremsg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Case $msg  *5</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+Select
+	Case ${1}
+		${2}
+	Case ${3}
+		${4}	
+	Case ${5}
+		${6}	
+	Case ${7}
+		${8}	
+	Case Else
+		${9}	
+EndSelect
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selectcase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Select .. Case *5 .. EndSelect</description>
+</snippet>

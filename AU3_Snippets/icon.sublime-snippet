@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+C:\\Program Files\\AutoIt3\\Aut2Exe\\Icons\\${1}.ico
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>icon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Path ..\Aut2Exe\Icons\xxx.ico</description>
+</snippet>

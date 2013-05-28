@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+C:\\Program Files\\Autoit3\\SciTe\\SciTe.exe${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scite</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Path SciTe.exe</description>
+</snippet>

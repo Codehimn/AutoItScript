@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+Func _SelfDelete()
+	Local \$cmdfile
+	FileDelete(@TempDir & "\\scratch.cmd")
+	\$cmdfile = ':loop' & @CRLF _
+			& 'del "' & @ScriptFullPath & '"' & @CRLF _
+			& 'if exist "' & @ScriptFullPath & '" goto loop' & @CRLF _
+			& 'del ' & @TempDir & '\\scratch.cmd'
+	FileWrite(@TempDir & "\\scratch.cmd", \$cmdfile)
+	Run(@TempDir & "\\scratch.cmd", @TempDir, @SW_HIDE)
+EndFunc
+${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selfdelete</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.autoit</scope>
+	<description>Function _Selfdelete</description>
+</snippet>
