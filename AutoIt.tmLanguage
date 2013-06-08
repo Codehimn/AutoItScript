@@ -1,6 +1,5 @@
-<!-- http://sublime-text-community-packages.googlecode.com/svn/pages/AutoIt.html -->
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -42,46 +41,52 @@
 			<string>support.other.autoit</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.parameter.import.autoit</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>#\b(?i:comments-end|comments-start|include|include-once|notrayicon|requireadmin)\b</string>
+			<string>#\b(?i:include|include-once)\b(.*)$</string>
 			<key>name</key>
-			<string>comment.block.preprocessor.autoit</string>
+			<string>keyword.control.import.autoit</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.parameter.directives.autoit</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>#\b(?i:autoit3wrapper_au3check_parameters|autoit3wrapper_au3check_stop_onwarning|autoit3wrapper_change2cui|autoit3wrapper_compression|autoit3wrapper_cvswrapper_parameters|autoit3wrapper_icon|autoit3wrapper_outfile|autoit3wrapper_outfile_type|autoit3wrapper_plugin_funcs|autoit3wrapper_res_comment|autoit3wrapper_res_description|autoit3wrapper_res_field|autoit3wrapper_res_file_add|autoit3wrapper_res_fileversion|autoit3wrapper_res_fileversion_autoincrement|autoit3wrapper_res_icon_add|autoit3wrapper_res_language|autoit3wrapper_res_legalcopyright|autoit3wrapper_res_requestedexecutionlevel|autoit3wrapper_res_savesource|autoit3wrapper_run_after|autoit3wrapper_run_au3check|autoit3wrapper_run_before|autoit3wrapper_run_cvswrapper|autoit3wrapper_run_debug_mode|autoit3wrapper_run_obfuscator|autoit3wrapper_run_tidy|autoit3wrapper_tidy_stop_onerror|autoit3wrapper_useansi|autoit3wrapper_useupx|autoit3wrapper_usex64|autoit3wrapper_version|endregion|forceref|obfuscator_ignore_funcs|obfuscator_ignore_variables|obfuscator_parameters|region|tidy_parameters )\b</string>
+			<string>#\b(?i:notrayicon|requireadmin|autoit3wrapper_au3check_parameters|autoit3wrapper_au3check_stop_onwarning|autoit3wrapper_change2cui|autoit3wrapper_compression|autoit3wrapper_cvswrapper_parameters|autoit3wrapper_icon|autoit3wrapper_outfile|autoit3wrapper_outfile_type|autoit3wrapper_plugin_funcs|autoit3wrapper_res_comment|autoit3wrapper_res_description|autoit3wrapper_res_field|autoit3wrapper_res_file_add|autoit3wrapper_res_fileversion|autoit3wrapper_res_fileversion_autoincrement|autoit3wrapper_res_icon_add|autoit3wrapper_res_language|autoit3wrapper_res_legalcopyright|autoit3wrapper_res_requestedexecutionlevel|autoit3wrapper_res_savesource|autoit3wrapper_run_after|autoit3wrapper_run_au3check|autoit3wrapper_run_before|autoit3wrapper_run_cvswrapper|autoit3wrapper_run_debug_mode|autoit3wrapper_run_obfuscator|autoit3wrapper_run_tidy|autoit3wrapper_tidy_stop_onerror|autoit3wrapper_useansi|autoit3wrapper_useupx|autoit3wrapper_usex64|autoit3wrapper_version|endregion|forceref|obfuscator_ignore_funcs|obfuscator_ignore_variables|obfuscator_parameters|region|tidy_parameters)\b(.*)$</string>
 			<key>name</key>
-			<string>comment.block.preprocessor.special.autoit</string>
+			<string>keyword.control.directives.autoit</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>#cs</string>
-			<key>captures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.autoit</string>
-				</dict>
-			</dict>
 			<key>end</key>
 			<string>#ce.*$\n?</string>
 			<key>name</key>
-			<string>comment.block.autoit</string>
+			<string>comment.block.cs.autoit</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>;</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.comment.autoit</string>
-				</dict>
-			</dict>
+			<string>#comments-start</string>
 			<key>end</key>
-			<string>$\n?</string>
+			<string>#comments-end.*$\n?</string>
+			<key>name</key>
+			<string>comment.block.comments-start.autoit</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>;.*</string>
 			<key>name</key>
 			<string>comment.line.semicolon.autoit</string>
 		</dict>
@@ -108,6 +113,13 @@
 			</dict>
 			<key>name</key>
 			<string>string.quoted.double.autoit</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#string_escaped_char</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -116,6 +128,21 @@
 			<string>variable.other.autoit</string>
 		</dict>
 	</array>
+	<key>repository</key>
+	<dict>
+		<key>string_escaped_char</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\"</string>
+					<key>name</key>
+					<string>string.quoted.escaped.quote.autoit</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>scopeName</key>
 	<string>source.autoit</string>
 	<key>uuid</key>
