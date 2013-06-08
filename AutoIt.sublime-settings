@@ -1,4 +1,4 @@
 {
-	"AutoItEXEPath": "C:\\Program Files\\AutoIt3\\AutoIt3.exe",
-	// "AutoItEXEPath": "D:\\PortableApps\\AutoIt\\AutoIt3.exe",
+	"AutoItExePath": "C:\\Program Files\\AutoIt3\\AutoIt3.exe",
+	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe",
 }

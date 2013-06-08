@@ -1,5 +1,15 @@
 [
 	{
+	 "caption": "Tools",
+	 "mnemonic": "T",
+	 "id": "tools",
+	 "children":
+		[
+			{ "caption": "-", "id": "build" },
+			{ "command": "autoittidy", "caption": "AutoIt Tidy"}
+		]
+	},
+	{
 		"caption": "Preferences",
 		"mnemonic": "n",
 		"id": "preferences",
