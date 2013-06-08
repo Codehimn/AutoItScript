@@ -13,7 +13,7 @@
 				[
 					{
 						"command": "open_file",
-						"args": {"file": "${packages}/AutoIt/AutoIt.sublime-settings"},
+						"args": {"file": "${packages}/AutoItScript/AutoIt.sublime-settings"},
 						"caption": "AutoIt Settings"
 					}
 				]
