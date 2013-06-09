@@ -5,7 +5,7 @@
 	 "id": "tools",
 	 "children":
 		[
-			{ "caption": "-", "id": "build" },
+			{ "caption": "-", "id": "packagecommands" },
 			{ "command": "autoittidy", "caption": "AutoIt Tidy"}
 		]
 	},

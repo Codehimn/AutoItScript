@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sublime, sublime_plugin
 import subprocess
 
@@ -20,4 +21,10 @@ class autoittidy(sublime_plugin.WindowCommand):
 		tidyprocess = subprocess.Popen(tidycmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
 		tidyoutput = tidyprocess.communicate()[0].rstrip()
 		self.window.run_command("revert")
-		sublime.status_message(tidyoutput)
+		print("------------ Beginning AutoIt Tidy ------------")
+		print(tidyoutput)
+		if("Tidy Error" in tidyoutput):
+			sublime.active_window().run_command("show_panel", {"panel": "console", "toggle": True})
+			sublime.status_message("### Tidy Errors : Please See Console")
+		else:
+			sublime.status_message(tidyoutput)

@@ -6,12 +6,12 @@
 			"description": "AutoItScript AU3 language package for SublimeText including syntax highlighting, comments toggling, snippets, build system, and Tidy command.",
 			"author": "robertcollier4",
 			"homepage": "https://github.com/robertcollier4/AutoItScript",
-			"last_modified": "2013-06-09 20:00:00",
+			"last_modified": "2013-06-09 22:00:00",
 			"platforms": {
 				"windows": [
 					{
-						"version": "1.2.3",
-						"url": "https://nodeload.github.com/robertcollier4/AutoItScript/zip/1.2.3"
+						"version": "1.2.4",
+						"url": "https://nodeload.github.com/robertcollier4/AutoItScript/zip/1.2.4"
 					}
 				]
 			}
