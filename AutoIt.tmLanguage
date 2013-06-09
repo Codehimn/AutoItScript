@@ -223,6 +223,12 @@
 			<key>name</key>
 			<string>punctuation.bracket.autoit</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b_(?= *(?:$|;))</string>
+			<key>name</key>
+			<string>keyword.control.underscore.autoit</string>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
