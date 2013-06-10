@@ -24,7 +24,7 @@ class autoittidy(sublime_plugin.WindowCommand):
 		print("------------ Beginning AutoIt Tidy ------------")
 		print(tidyoutput)
 		if("Tidy Error" in tidyoutput):
-			sublime.active_window().run_command("show_panel", {"panel": "console", "toggle": True})
+			sublime.active_window().run_command("show_panel", {"panel": "console"})
 			sublime.status_message("### Tidy Errors : Please See Console")
 		else:
 			sublime.status_message(tidyoutput)

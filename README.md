@@ -3,7 +3,8 @@ AutoItScript - Syntax Package for Sublime Text 2/3
 
 AutoItScript AU3 language package for SublimeText including syntax highlighting, comments toggling, snippets, build system, and Tidy command.
 
-For the build system and Tidy command, you will need to set your specific path to AutoIt3.exe and Tidy.exe in the file AutoIt.sublime-settings (you can open this file via the Menu Preferences>Package Settings>AutoIt Settings).
+For the build system and Tidy command, if you have a non-default installation you will need to set your specific path to AutoIt3.exe and Tidy.exe in a file named AutoIt.sublime-settings in your User folder. You can open the settings files via the Menu Preferences>Package Settings>AutoIt. You should make a copy of "AutoIt Settings - Default" at "AutoIt Settings - User" since then your settings file in your User folder will not get overwritten when this package updates.
+
 
 Credits
 ------------
