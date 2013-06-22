@@ -42,9 +42,19 @@
 					<key>name</key>
 					<string>string.parameter.import.autoit</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.import.autoit</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.import.autoit</string>
+				</dict>
 			</dict>
 			<key>match</key>
-			<string>#\b(?i:include|include-once)\b(.*)$</string>
+			<string>#(?i:include|include-once)\s+((["'&lt;]).*(["'&gt;]))$</string>
 			<key>name</key>
 			<string>keyword.control.import.autoit</string>
 		</dict>
@@ -94,7 +104,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>"</string>
+			<string>(")</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -104,7 +114,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>"(?!")|^</string>
+			<string>(")(?!")|^</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -135,7 +145,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>'</string>
+			<string>(')</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -145,7 +155,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>'(?!')|^</string>
+			<string>(')(?!')|^</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
