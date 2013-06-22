@@ -6,12 +6,11 @@
 	 "children":
 		[
 			{ "caption": "-", "id": "packagecommands" },
-			{ "command": "autoittidy", "caption": "AutoIt Tidy"}
+			{ "command": "autoittidy", "caption": "AutoIt Tidy", "mnemonic": "T"}
 		]
 	},
 	{
 		"caption": "Preferences",
-		"mnemonic": "n",
 		"id": "preferences",
 		"children":
 		[

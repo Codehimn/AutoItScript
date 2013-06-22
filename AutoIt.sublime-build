@@ -1,4 +1,11 @@
 {
 	"target": "autoitbuild",
-	"selector": "source.autoit"
+	"selector": "source.autoit",
+	"variants": [
+		{
+			"name": "Run",
+			"target": "autoitcompile",
+		},
+	]
+
 }

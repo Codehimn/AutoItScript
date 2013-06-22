@@ -1,4 +1,5 @@
 {
 	"AutoItExePath": "C:\\Program Files\\AutoIt3\\AutoIt3.exe",
+	"AutoItCompilerPath": "C:\\Program Files\\AutoIt3\\Aut2Exe\\Aut2exe.exe",
 	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe"
 }
